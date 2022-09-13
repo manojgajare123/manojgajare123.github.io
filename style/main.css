@@ -9,7 +9,9 @@
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
   font-family: "Poppins", sans-serif;
+
 }
+
 :root {
   --main-color: #033a80;
   --bg-color: #fff;
@@ -151,6 +153,10 @@ header.shadow {
     background: var(--hover);
     border-radius: 10rem;
   
+  }.about-img {
+    display: flex;
+    justify-content: center;
+    margin-top:75px;
   }
   .about-container {
     display: grid;
@@ -162,6 +168,7 @@ header.shadow {
   .about-img img {
     width: 80%;
     border-radius: 0.5rem;
+
   }
   .about-text p {
     font-size: var(--p-font);
@@ -341,6 +348,40 @@ margin-bottom: 10px;
   border: 1px solid rgb(64,112,244);
   cursor: pointer;
 }
+#contact{
+  background: #ebebeb;
+  color: #000;
+}
+.heading>p{
+  color: rgb(2, 166, 70);
+}
+#manojc{
+  text-align: center;
+  line-height: -20%;
+}
+#manojc h2{
+  text-align: center;
+  /* color: #033a80; */
+  margin-bottom: 10px;
+  
+}
+
+#xx{
+  font-size: 40px;
+  margin-left: 5px;
+  margin-top:70px;
+  padding-top: 30px;
+  color: #1468d6;
+}
+#xx:hover{
+  color: #d8dde7;
+}
+#line{
+  background-color: #033a80;
+  height: 30px;
+  
+}
+
   /* Making Responsive */
 @media (max-width: 991px) {
   header {
@@ -356,6 +397,15 @@ margin-bottom: 10px;
 grid-template-columns: repeat(1,1fr);
 gap: 45px;
 }
+.about-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+}
+#contact{
+  margin-top: 900px;
+}
+
 }
 @media (max-width: 881px) {
   :root {
@@ -369,6 +419,10 @@ gap: 45px;
 grid-template-columns: repeat(1,1fr);
 gap: 45px;
 }
+#contact{
+  margin-top: 800px;
+}
+
 }
 @media (max-width: 768px) {
   :root {
@@ -420,6 +474,9 @@ gap: 45px;
   .home-img {
     order: initial;
   }
+  .heading{
+    margin-bottom: 70px;
+  }
   .about{
     grid-template-columns: 1fr;
   }
@@ -429,6 +486,7 @@ gap: 45px;
   .about-img {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
   }
   .skills{
     grid-template-columns: 1fr;
@@ -462,7 +520,12 @@ gap: 45px;
 grid-template-columns:1fr
 
 }
-
+#contact{
+  margin-top: 700px;
+}
+#manojc{
+  margin-top: -80px;
+}
 }
 @media (max-width: 340px) {
   :root {
@@ -481,11 +544,19 @@ grid-template-columns:1fr
   }
   .portfolio-content {
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    margin-bottom: 400px;
   }
   .contact-form form{
     width: 300px;
   }
   .contact-button{
     margin-left: 25%;
+  }
+
+}
+@media (max-width: 425px){
+
+  #contact{
+margin-top: 550px;
   }
 }
