@@ -349,7 +349,7 @@ margin-bottom: 10px;
   cursor: pointer;
 }
 #contact{
-  background: #ebebeb;
+ 
   color: #000;
 }
 .heading>p{
@@ -376,11 +376,7 @@ margin-bottom: 10px;
 #xx:hover{
   color: #d8dde7;
 }
-#line{
-  background-color: #033a80;
-  height: 30px;
-  
-}
+
 
   /* Making Responsive */
 @media (max-width: 991px) {
@@ -550,7 +546,7 @@ grid-template-columns:1fr
   .portfolio-content {
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     margin-bottom: 400px;
-    margin-left: 10px;
+    margin-left: 70px;
 
   }
   .contact-form form{
@@ -560,15 +556,12 @@ grid-template-columns:1fr
     margin-left: 25%;
   }
   #contact{
-    margin-top: 200px;
-  
-    width: 100%;
+    margin-top: 150px;
+     
+ margin-left: 40px;
       }
   
-    #line{
-      margin-left: 10px;
-      width: 100%;
-    }
+    
 }
 @media (max-width: 425px){
 
@@ -584,6 +577,10 @@ margin-left: 10px;
   }
   .about{
     grid-template-columns: 1fr;
-    margin-left: 40PX;
+    margin-left: 50px;
+  }
+  #line{
+    margin-left: 10px;
+    width: 100%;
   }
 }
