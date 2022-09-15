@@ -584,12 +584,13 @@ margin-left: 10px;
   .about{
     grid-template-columns: 1fr;
     margin-left: 30px;
+    margin-top: -40px;
   }
  
 .home{
 
   height: 600px;
-  
+
   display: grid;
   grid-template-columns: 300px  ;
   grid-template-rows: 100px 100px 100px ;
