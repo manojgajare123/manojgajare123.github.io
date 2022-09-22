@@ -9,7 +9,16 @@
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-   
+   <!-- Include the library. -->
+<script
+src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+rel="stylesheet"
+href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
 </head>
 <body>
      <!-- Navbar -->
@@ -30,15 +39,12 @@
     
     <section class="home" id="home">
         <div class="social">
-            <div id="an1">
             <a href="https://github.com/manojgajare123  " target="_blank"><i class='bx bxl-github'></i></a>
-        </div>
-            <div id="an2"> 
-                <a href="https://www.linkedin.com/in/manoj-gajare-20a29120a" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-            </div>
+            <a href="https://www.linkedin.com/in/manoj-gajare-20a29120a" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+           
         </div>
         <div class="home-img">
-            <img src="./Detail/Manoj_Photo.JPG"  alt="">
+            <img src="./Detail/Manoj_Photo.JPG"   alt="">
         </div>
         <div class="home-text">
             <span>Hello, I'm</span>
@@ -141,7 +147,7 @@
         </div>
     </div>
     <div class="skills-img">
-        <img src= "https://transcendent-nougat-faa41c.netlify.app/123.png" alt="">
+        <img src=https://transcendent-nougat-faa41c.netlify.app/123.png alt="">
     </div>
 </div>
 
@@ -177,6 +183,14 @@
         </div>
     </div>
 </section>
+<!-- Prepare a container for your calendar. -->
+<div id="github">
+<h1 id="hed">My Github Contribution Calender</h1>
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
+</div>
 <!-- contact part start from here  -->
 
 <section class="footer" id="contact">
@@ -195,9 +209,10 @@
     
 </section>
 <!-- contact part end from here  -->
-<!-- media -->
-
 
 </body>
 </html>
 <script src="./Js/main.js"></script>
+
+
+

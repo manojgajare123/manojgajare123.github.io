@@ -26,3 +26,20 @@
  window.onscroll = () => {
      navbar.classList.remove('active');
  }
+
+
+
+ // Git Hub clender
+
+
+ GitHubCalendar(".calendar", "manojgajare123");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "manojgajare123", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "manojgajare123", {
+       proxy (manojgajare123) {
+         return fetch(`https://your-proxy.com/github?user=${manojgajare123}`)
+       }
+    }).then(r => r.text())
