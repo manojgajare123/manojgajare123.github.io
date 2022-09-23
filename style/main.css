@@ -396,60 +396,6 @@ margin-bottom: 10px;
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-#front{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: 200px;
-  /* border: 1px solid red ; */
-  margin-bottom: 80px;
-  margin-top: 20px;
-  gap: 20px;
-  text-align: center;
-}
-.fa-laptop-code{
-  font-size: 40px;
-  margin-bottom: 8px;
-}
-.fa-network-wired{
-  font-size: 40px;
-  margin-bottom: 8px;
-}
-.fa-brain{
-  font-size: 40px;
-  margin-bottom: 8px;
-}
-.fa-comments{
-  font-size: 40px;
-  margin-bottom: 8px;
-}
-.my{
-  text-align: center;
-  margin-bottom: 40px;
-}
-#avd{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: 100px;
-  gap: 40px;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 40px;
-  /* background-color: antiquewhite; */
-}
-.benzo{
-  padding-top: 10px;
-  /* background-color: rgb(62, 104, 141);    */
-  border-radius: 50%;
-  padding-bottom: 10px;
-}
-.benzo h2{
-  font-size: 15px;
-}
-.benzo:hover{
-  color: #2f7adb;
-}
-
-
   /* Making Responsive */
 @media (max-width: 991px) {
   header {
@@ -473,7 +419,11 @@ gap: 45px;
 #contact{
   margin-top: 900px;
 }
+#github{
 
+ margin-top: 90%;
+ margin-bottom: -800px;
+}
 }
 @media (max-width: 881px) {
   :root {
@@ -490,26 +440,11 @@ gap: 45px;
 #contact{
   margin-top: 800px;
 }
-#front{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: 200px;
-  /* border: 1px solid red ; */
-  margin-bottom: 80px;
-  margin-top: 20px;
-  gap: 20px;
-  text-align: center;
-}
-#avd{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: 100px;
-  gap: 40px;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 40px;
-  /* background-color: antiquewhite; */
-}
+#github{
+
+  margin-top: 100%;
+  margin-bottom: -700px;
+ }
 
 }
 @media (max-width: 768px) {
@@ -615,32 +550,43 @@ grid-template-columns:1fr
 #manojc{
   margin-top: -80px;
 }
+#github{
 
+  margin-top: 90%;
+  margin-bottom: -700px;
+ }
 
 }
 
 @media (max-width: 425px){
 
   #contact{
-margin-top: 200px;
-margin-left: 10px;
+margin-top: 100px;
+margin-left: 20%;
 
+  }
+  .heading{
+    margin-left: 20%;
+  }
+  #hed{
+    margin-left: 20px;
   }
   .portfolio-content {
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     margin-bottom: 400px;
-    margin-left: 20px;
+    margin-left: 20%;
+   
   }
   .about{
     grid-template-columns: 1fr;
-    margin-left: 30px;
+    margin-left: 20%;
     margin-top: -40px;
   }
  
 .home{
 
   height: 600px;
-
+  margin-left: 80px;
   display: grid;
   grid-template-columns: 300px  ;
   grid-template-rows: 100px 100px 100px ;
@@ -714,28 +660,15 @@ margin-left: 10px;
   margin-left: 30px;
  
 }
-#front{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: 250px;
-  /* border: 1px solid red ; */
-  margin-bottom: 80px;
-  margin-top: 20px;
-  gap: 20px;
-  text-align: center;
-}
+#github{
 
-#avd{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: 100px;
-  gap: 40px;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 40px;
-  /* background-color: antiquewhite; */
+  margin-top:200px;
+margin-bottom: -80px;
+margin-left: 80px;
+ }
+.skills{
+  margin-left: 80px;
 }
-
 }
 @media (max-width: 300px) {
   :root {
@@ -781,28 +714,6 @@ margin-left: 10px;
     margin-left: 10px;
     width: 100%;
   }
-  #front{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: 200px;
-    /* border: 1px solid red ; */
-    margin-bottom: 80px;
-    margin-top: 20px;
-    gap: 20px;
-    text-align: center;
-  }
- 
-
-  #avd{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: 100px;
-    gap: 40px;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 40px;
-    /* background-color: antiquewhite; */
-  }
 
   .calendar{
     display: none;
@@ -811,6 +722,12 @@ margin-left: 10px;
   #hed{
     display: none;
   }
+  #github{
+
+    margin-top:200px;
+  margin-bottom: -80px;
+  margin-left: 100px;
+   }
 }
 
     
