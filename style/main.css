@@ -561,32 +561,28 @@ grid-template-columns:1fr
 @media (max-width: 425px){
 
   #contact{
-margin-top: 100px;
-margin-left: 20%;
+margin-top: 400px;
+margin-left: 20px;
 
   }
-  .heading{
-    margin-left: 20%;
-  }
-  #hed{
-    margin-left: 20px;
-  }
+
+ 
   .portfolio-content {
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     margin-bottom: 400px;
-    margin-left: 20%;
+    margin-left: 30px;
    
   }
   .about{
     grid-template-columns: 1fr;
-    margin-left: 20%;
+    margin-left: 20px;
     margin-top: -40px;
   }
  
 .home{
 
   height: 600px;
-  margin-left: 80px;
+  margin-left: 20px;
   display: grid;
   grid-template-columns: 300px  ;
   grid-template-rows: 100px 100px 100px ;
@@ -660,15 +656,19 @@ margin-left: 20%;
   margin-left: 30px;
  
 }
-#github{
+.calendar{
+  display: none;
+}
+#hed{
+  display: none;
+}
+/* #github{
 
   margin-top:200px;
 margin-bottom: -80px;
 margin-left: 80px;
- }
-.skills{
-  margin-left: 80px;
-}
+ } */
+
 }
 @media (max-width: 300px) {
   :root {
@@ -692,7 +692,7 @@ margin-left: 80px;
   .portfolio-content {
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     margin-bottom: 400px;
-    margin-left: 70px;
+    margin-left: 40px;
 
   }
   .contact-form form{
@@ -703,7 +703,7 @@ margin-left: 80px;
   }
   #contact{
 
-    margin-top: 400px;
+    margin-top: 600px;
 
  margin-left: 40px;
       }
@@ -722,12 +722,19 @@ margin-left: 80px;
   #hed{
     display: none;
   }
-  #github{
+  /* #github{
 
     margin-top:200px;
   margin-bottom: -80px;
   margin-left: 100px;
-   }
+   } */
 }
+@media (max-width: 250px){
+  #contact{
 
+    margin-top: 1200px;
+
+ margin-left: 40px;
+      }
+}
     
