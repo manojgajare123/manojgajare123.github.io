@@ -583,8 +583,6 @@ margin-left: 20px;
   }
   /* #box{
 margin-top: -900px;
-
-
   } */
   .about{
     grid-template-columns: 1fr;
@@ -683,9 +681,15 @@ margin-top: -900px;
 }
 /* .github{
 
-  margin-top: 600px;
+  margin-left: 60px;
 } */
+#stats>img{
 
+  width: 90%;
+
+  margin-left: 30px;
+
+}
 
 }
 @media (max-width: 300px) {
@@ -750,9 +754,12 @@ margin-top: -900px;
 @media (max-width: 250px){
   #contact{
 
-    margin-top: 1200px;
-
+   margin-top: -1380px;
  margin-left: 40px;
       }
 }
     
+.calendar span {
+font-size: 10px;
+
+}

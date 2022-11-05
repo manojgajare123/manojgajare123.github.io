@@ -31,5 +31,7 @@
 
  // Git Hub clender
 
-
+function myfun(){
+  return  window.open('./Detail/Manoj_Gajare_Resume.pdf', '_blank');
+}
  
