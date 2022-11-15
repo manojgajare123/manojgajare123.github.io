@@ -334,7 +334,7 @@ header.shadow {
    gap:100px;
     margin-top: 2rem;
     height: 600px;
-    margin-bottom: 75%;
+    margin-bottom: 80%;
     
   }
   #box {
@@ -419,9 +419,9 @@ margin-bottom: 10px;
 #hed1{
   margin-bottom: 30px;
 }
-#github{
+/* #github{
   margin-top: 40px;
-}
+} */
 
 
 
@@ -573,6 +573,7 @@ gap: 45px;
   .portfolio-content {
     width: 90%;
     margin-bottom: 1400px;
+    grid-template-columns:1fr
 }
 #box {
 grid-template-columns: repeat(1,1fr);
@@ -585,10 +586,7 @@ gap: 45px;
     margin-left: 25%;
   }
   
-.portfolio-content{
-grid-template-columns:1fr
 
-}
 #contact{
   margin-top: 700px;
 }
