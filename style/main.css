@@ -209,6 +209,24 @@ header.shadow {
     width: 80%;
     padding-left: 4rem;
     object-position: center;
+  } 
+
+  #SkillsContainer{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-row: 100px;
+    gap: 20px;
+    /* border: 1px solid red; */
+    margin-top: 60px  ;
+  }
+  #SkillsContainer img{
+    width: 70%;
+    height: 100px;
+    border-radius: 10%;
+    transition: transform .2s;
+  }
+  #SkillsContainer img:hover{
+    transform: scale(1.5);
   }
   #bar{
     display: flex;
@@ -223,13 +241,17 @@ header.shadow {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
-  
+    margin-top: 20px;
     /* margin-left: 40px; */
   }
-  .bars-box h3,
+  /* .bars-box h3,
   span {
     font-size: 1.1rem;
     font-weight: 500;
+  } */
+  .bars-box h3  p{
+    font-weight: 500;
+    font-size: 14px;
   }
   .light-bar {
     position: absolute;
@@ -249,16 +271,16 @@ header.shadow {
     border-radius: 0.5rem;
   }
   .html-bar {
-    width: 94%;
+    width: 80%;
   }
   .css-bar {
-    width: 84%;
+    width: 90%;
   }
   .js-bar {
-    width: 74%;
+    width: 70%;
   }
   .java-bar {
-    width: 95%;
+    width: 85%;
   }
   .services-content {
     display: grid;
@@ -397,7 +419,9 @@ margin-bottom: 10px;
 #hed1{
   margin-bottom: 30px;
 }
-
+#github{
+  margin-top: 40px;
+}
 
 
 
@@ -431,12 +455,26 @@ gap: 45px;
 }
 }
 @media (max-width: 881px) {
+
   :root {
     --big-font: 2.7rem;
     --medium-font: 1.4rem;
   }
   .portfolio-content {
     width: 90%;
+    margin-bottom: 1500px;
+}
+#SkillsContainer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row: 100px;
+  gap: 20px;
+  margin-top: 60px  ;
+}
+#SkillsContainer img{
+  width: 70%;
+  height: 100px;
+  border-radius: 10%;
 }
 #box {
 grid-template-columns: repeat(1,1fr);
@@ -534,7 +572,7 @@ gap: 45px;
   }
   .portfolio-content {
     width: 90%;
-    margin-bottom: 1350px;
+    margin-bottom: 1400px;
 }
 #box {
 grid-template-columns: repeat(1,1fr);
@@ -557,16 +595,27 @@ grid-template-columns:1fr
 #manojc{
   margin-top: -80px;
 }
-#github{
+/* #github{
 
-  margin-top: 90%;
+  margin-top: 800px;
   margin-bottom: -700px;
- }
+ } */
 
 }
 
 @media (max-width: 425px){
 
+  #SkillsContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row: 100px;
+    gap: 20px;
+    margin-top: 60px  ;
+  }
+  #SkillsContainer img{
+    width: 70%;
+    height: 100px;
+  }
   #contact{
 margin-top: 400px;
 margin-left: 20px;
@@ -576,8 +625,9 @@ margin-left: 20px;
  
   .portfolio-content {
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    margin-bottom:1500px;
+    margin-bottom:1600px;
     margin-left: 30px;
+ 
 
    
   }
@@ -679,10 +729,8 @@ margin-top: -900px;
 .heading{
   margin-top: 300px;
 }
-/* .github{
 
-  margin-left: 60px;
-} */
+
 #stats>img{
 
   width: 90%;
@@ -692,7 +740,7 @@ margin-top: -900px;
 }
 
 }
-@media (max-width: 300px) {
+@media (max-width: 375px) {
   :root {
     --big-font: 1.7rem;
     --medium-font: 1.1rem;
@@ -713,7 +761,7 @@ margin-top: -900px;
   }
   .portfolio-content {
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    margin-bottom: 2600px;
+    margin-bottom: 1700px;
   
     margin-left: 40px;
 
@@ -727,7 +775,7 @@ margin-top: -900px;
   }
   #contact{
 
-    margin-top: 600px;
+    margin-top: 400px;
 
  margin-left: 40px;
       }
@@ -739,27 +787,35 @@ margin-top: -900px;
     width: 100%;
   }
 
-  /* .calendar{
-    display: none;
 
-  } */
-/* 
-  .github{
 
-    margin-top:1800px;
 
-  margin-left: 100px;
-   } */
 }
-@media (max-width: 250px){
+@media (max-width: 350px){
   #contact{
 
-   margin-top: -1380px;
+   margin-top: 400px;
  margin-left: 40px;
       }
-}
+      .portfolio-content {
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        margin-bottom: 1800px;
+      
+        margin-left: 40px;
     
-.calendar span {
-font-size: 10px;
+      }
+}
+@media (max-width: 300px){
+  #contact{
 
+   margin-top: 400px;
+ margin-left: 40px;
+      }
+      .portfolio-content {
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        margin-bottom: 2600px;
+      
+        margin-left: 40px;
+    
+      }
 }
